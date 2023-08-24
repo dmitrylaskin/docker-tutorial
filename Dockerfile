@@ -12,7 +12,6 @@ ENV PORT 3001
 
 EXPOSE $PORT
 
-# нет в текущем билде
 VOLUME ["/app/data"]
 
 CMD ["node", "app.js"]
